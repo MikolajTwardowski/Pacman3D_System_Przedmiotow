@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 63eecbfa4f267a4428b661778a063d50
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - material: {fileID: 2100000, guid: 0e97f2bfb8c0e71408a90aac4344dbb7, type: 2}
+  - puppetPrefab: {fileID: 6582340359383805878, guid: afc2e7fee3004de4098e6f11e9eb785b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
