@@ -6,6 +6,8 @@ MonoImporter:
   defaultReferences:
   - material: {fileID: 2100000, guid: 930502c3a6a490e4185a35b9e3b1c3ea, type: 2}
   - puppetPrefab: {fileID: 6582340359383805878, guid: afc2e7fee3004de4098e6f11e9eb785b, type: 3}
+  - boostStepsAudio: {fileID: 8300000, guid: 8a82242f1edfdfc4da73d6c0c1131153, type: 3}
+  - playerStepsHandler: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

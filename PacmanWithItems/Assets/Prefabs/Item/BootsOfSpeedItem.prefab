@@ -44,8 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 569041f700191194685ca5798c78c502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useClip: {fileID: 8300000, guid: 9483b9ff417fac04ead35a177438f230, type: 3}
   cooldown: 5
+  onCooldown: 0
   material: {fileID: 2100000, guid: 930502c3a6a490e4185a35b9e3b1c3ea, type: 2}
   puppetPrefab: {fileID: 4047563120120821029, guid: bab3ace61ef663542b34585c5883714c, type: 3}
   additionalSpeed: 25
   boostDuration: 3
+  boostStepsAudio: {fileID: 8300000, guid: 8a82242f1edfdfc4da73d6c0c1131153, type: 3}

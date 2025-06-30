@@ -16,14 +16,12 @@ public class Player : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject); // Utrzymaj między scenami (opcjonalne)
 
-        // 🔧 Ustaw limit FPS
+        //  Ustaw limit FPS
         Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 0; // Wyłączenie vSync, żeby targetFrameRate działał niezależnie
 
         rb = GetComponent<Rigidbody>();
     }
-
-
 
 
     public Item heldItem;
@@ -67,11 +65,8 @@ public class Player : MonoBehaviour
         // Wyłącz aplikację ESC
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false; // Działa tylko w edytorze
-            #else
             Application.Quit(); // Działa w buildzie
-            #endif
+
         }
 
     }

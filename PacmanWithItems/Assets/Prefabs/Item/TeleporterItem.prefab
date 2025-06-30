@@ -44,7 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63eecbfa4f267a4428b661778a063d50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useClip: {fileID: 8300000, guid: 01e2c188672f6444ca6191ec317d0904, type: 3}
   cooldown: 5
+  onCooldown: 0
   material: {fileID: 2100000, guid: 0e97f2bfb8c0e71408a90aac4344dbb7, type: 2}
   puppetPrefab: {fileID: 6582340359383805878, guid: afc2e7fee3004de4098e6f11e9eb785b, type: 3}
   range: 2.5
